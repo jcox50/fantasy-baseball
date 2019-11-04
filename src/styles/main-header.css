@@ -1,0 +1,32 @@
+.header-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#8D8741;
+    padding: 1vh;
+}
+
+
+.title {
+    
+   
+  
+
+    color: #403B3B;
+  }
+  
+.login-button{
+    align-self: flex-end;
+    display: inline-block;  
+    border-radius: 4px;  
+    background-color: #B7A9A1;  
+    border: none;  
+    color: #FFFFFF;  
+    text-align: center;  
+    font-size: 28px;  
+    padding: 20px;  
+    width: 200px;  
+    transition: all 0.5s;  
+    cursor: pointer;  
+    margin: 5px;
+  }
