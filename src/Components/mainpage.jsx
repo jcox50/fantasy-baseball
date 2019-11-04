@@ -5,7 +5,18 @@ import Header from './main-header';
 class Mainpage extends React.Component{
     render(){
         return(
-            <Header />
+            <div>
+                <header>
+                    <Header />
+                </header>
+                <div className="main-body">
+                    <div className="background-image">
+
+                    </div>
+                </div>
+
+            </div>
+            
         )
     }
 
