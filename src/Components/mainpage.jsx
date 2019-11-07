@@ -40,13 +40,10 @@ const SiteTitle = styled.h1`
     background: black;
     font-family: "Courier New", Courier, monospace;
     text-decoration: none;
-    color: #004a7c;
+    color: red;
     font-size: 1.5em;
     padding: 10px 0px 10px 0px;
 `;
-
-
-
 
 
 class Mainpage extends React.Component{

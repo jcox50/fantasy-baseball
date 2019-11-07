@@ -1,18 +1,38 @@
 
-    
-    
-    .btn:hover{ width: 75px; height: 75px;}
-
-
-
-
-
-
-
-
-
-
-
-
+.btn:hover{ width: 75px; height: 75px;}
 
 font-family: "Courier New", Courier, monospace;
+
+
+const Button = styled.button`
+    background: #92c7eb; 
+    background-image: url(${btnimg}); 
+    background-size: cover; 
+    background-position: center; 
+    display: inline-block; 
+    border: none; 
+    padding: 20px; 
+    width: 150px; 
+    border-radius: 900px; 
+    height: 150px; 
+    transition: all 0.5s; 
+    cursor: pointer;
+`
+
+
+enable-background= "new 0 0 100 100"
+
+background-size: cover; 
+    background-position: center; 
+    display: inline-block; 
+    border: none; 
+    padding: 20px; 
+    width: 150px; 
+    border-radius: 900px; 
+    height: 150px; 
+    transition: all 0.5s; 
+    cursor: pointer;
+
+
+
+<style>.st1{fill-rule:evenodd;clip-rule:evenodd}</style>
